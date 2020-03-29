@@ -11,13 +11,16 @@
 </head>
 
 <body class="bg-gray-200">
+
+    <!-- header section -->
+
     <header class="w-full h-12 bg-red-600">
 
-        <section class="header container mx-auto h-12 flex items-center justify-between">
+        <section class="hero-section container mx-auto h-12 flex items-center justify-between">
 
             <div class="flex flex-row">
                 <div class="flex flex-row hidden md:flex">
-                    <img class="h-4 mr-2 mt-1" src="nepal-flag.png" alt="nepal flag icon">
+                    <img class="h-4 mr-2 mt-1" src="img/nepal-flag.png" alt="nepal flag icon">
                     <p class="text-white mr-6">▼</p>
                 </div>
                 <div class="flex flex-row">
@@ -38,8 +41,11 @@
             </div>
         </section>
     </header>
+
+    <!-- menu bar section -->
+
     <section class="bg-white w-full h-24 ">
-        <div class="container header flex flex-row mx-auto justify-between">
+        <div class="container hero-section flex flex-row mx-auto justify-between">
             <div class="flex flex-row items-center mt-1">
                 <h1 class="bulk text-5xl font-bold italic mt-1 text-blue-800">sms</h1>
                 <i class="fas fa-sms text-5xl text-red-600 ml-1 mt-2"></i>
@@ -53,7 +59,7 @@
                     <a class="mr-4 hover:text-red-700" href="#">Company</a>
                     <a class="mr-4 hover:text-red-700" href="#">Contact Us</a>
                 </div>
-                <div class="flex items-center w-auto ">
+                <div class="flex items-center w-auto">
                     <button
                         class="rounded px-4 py-2 h-10 bg-blue-600 text-white font-sans outline-none overflow-hidden hover:bg-blue-700"
                         type="submit">Sign Up Today</button>
@@ -64,33 +70,501 @@
 
     </section>
 
+    <!-- hero section -->
+
     <section>
-        <div class=" header container mx-auto mt-20 mb-20 flex flex-row justify-between">
-            <div class="w-2/5 sm:w-auto">
-                <h1 class="text-5xl text-gray-700 font-serif mb-4">Get Your Message Across</h1>
-                <p class="text-2xl text-gray-600 font-thin mb-10 lg:w-4/5">A leading service provider offering two-way
+        <div class=" container hero-section mx-auto mt-20 mb-20 flex flex-row justify-between">
+            <div class="items-center mx-auto text-center md:text-left  sm:w-auto">
+                <h1 class="text-4xl text-center md:text-left sm:text-5xl text-gray-700 font-serif mb-4">Get Your Message
+                    Across</h1>
+                <p class="text-2xl text-center md:text-left text-gray-600 font-thin mb-10 lg:w-3/5">A leading service
+                    provider offering two-way
                     SMS communication from anywhere at any time.</p>
                 <button
                     class="rounded px-4 py-2 h-10 bg-blue-600 text-white font-sans outline-none overflow-hidden hover:bg-blue-700">Register
                     your account today</button>
             </div>
             <div class="hidden md:inline">
-                <img class="hero-img " src="images.png" alt="hero section image.">
+                <img class="hero-img " src="img/bitmap-2.png" alt="hero section image.">
+            </div>
+        </div>
+    </section>
+
+    <!-- card section after the hero layout -->
+
+    <section class="bg-white">
+        <div class="container  lg:header mx-auto">
+            <div class="flex flex-col items-center py-16 mx-auto text-center sm:w-auto">
+                <h2 class="text-4xl text-center text-blue-600 font- font-semibold ">One Account, Many Ways
+                    to Send</h2>
+                <p class="text-2xl text-center  text-gray-600 font-thin">When you sign up with BulkSMS,
+                    you'll get access to our entire solution suite:</p>
+            </div>
+        </div>
+
+
+
+        <div class="container mx-auto flex flex-col  lg:header lg:flex-row lg:justify-center lg:mx-auto">
+            <div class="card-width border-2 rounded-lg hover:shadow-2xl mx-auto mb-4 lg:mb-8">
+                <div class="">
+                    <img class="w-full mb-4 h-48 rounded-t-lg" src="img/Capture-web.PNG" alt="this is card image.">
+                </div>
+                <div class="text-width text-center mx-auto mb-8">
+                    <h3 class="text-xl text-blue-600 hover:text-blue-800 mb-2"><a href=""><b>Send SMS from Web</b></a>
+                    </h3>
+                    <p class="text-gray-600  mb-6">Use our responsive web app to access your online account from any
+                        browser.</p>
+                    <a href="#" class="red hover:bg-red-700 rounded py-2 px-4 my-12">Explore Solution</a>
+                </div>
+            </div>
+
+            <div class="card-width border-2 rounded-lg hover:shadow-2xl mx-auto mb-4 lg:mb-8">
+                <div class="">
+                    <img class="w-full mb-4 h-48 rounded-t-lg" src="img/Capture-api.PNG" alt="this is card image.">
+                </div>
+                <div class="text-width text-center mx-auto mb-8">
+                    <h3 class="text-xl text-blue-600 hover:text-blue-800 mb-2"><a href=""><b>Use our SMS API</b></a>
+                    </h3>
+                    <p class="text-gray-600 mb-6">Send SMSes automatically from your application of choice.</p>
+                    <a href="#" class="red hover:bg-red-700 rounded py-2 px-4 my-12">Explore Solution</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto flex flex-col md:header lg:flex-row lg:mx-auto">
+            <div class="card-width border-2 rounded-lg hover:shadow-2xl mx-auto mb-4">
+                <div class="">
+                    <img class="w-full mb-4 h-48 rounded-t-lg" src="img/Capture-desktop.PNG" alt="this is card image.">
+                </div>
+                <div class="text-width text-center mx-auto mb-8">
+                    <h3 class="text-xl text-blue-600 hover:text-blue-800 mb-2"><a href=""><b>Send SMS from
+                                Desktop</b></a></h3>
+                    <p class="text-gray-600 mb-6">Manage your SMS communications from your computer using our desktop
+                        application.</p>
+                    <a href="#" class="red hover:bg-red-700 rounded py-2 px-4 my-12">Explore Solution</a>
+                </div>
+            </div>
+
+            <div class="card-width border-2 rounded-lg hover:shadow-2xl mx-auto mb-4">
+                <div class="">
+                    <img class="w-full mb-4 h-48 rounded-t-lg" src="img/sms-frommbl.PNG" alt="this is card image.">
+                </div>
+                <div class="text-width text-center mx-auto mb-8">
+                    <h3 class="text-xl text-blue-600 hover:text-blue-800 mb-2"><a href=""><b>Send SMS from my
+                                iPhone</b></a></h3>
+                    <p class="text-gray-600 mb-6">Manage, send and receive your text messages from anywhere at any time
+                        on your iOS device.</p>
+                    <a href="#" class="red hover:bg-red-700 rounded py-2 px-4 my-12">Explore Solution</a>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto flex flex-row w-20 justify-around mt-6 ">
+            <hr class="w-2 border-2 rounded-l-full">
+            <hr class="w-12 border-2 rounded-r-full">
+        </div>
+
+
+    </section>
+
+
+
+    <section class="bg-white  pt-10">
+        <div class="container md:card-fullwidth mx-auto flex flex-col lg:flex-row lg:justify-between">
+
+            <div class="card-width mx-auto h-48 border-2 mb-4 bg-gray-100">
+                <div class="mt-6 flex flex-row ">
+                    <div>
+                        <img class="h-24 w-24 ml-4 mr-6 rounded-full " src="img/integration-icon.webp" alt="">
+
+                    </div>
+                    <div class="card-text mx-auto">
+                        <h3 class="font-bold text-xl text-gray-600">Our Integrations</h3>
+                        <p class="text-gray-600 font-thin">We offer advanced 2-way SMS functionality that directly <a
+                                href="#"> <u>integrates</u> </a> with several platforms.<a href="#"><u>Find out more
+                                    here</u></a>.
+                        </p>
+                    </div>
+                </div>
+                <hr class="mt-10">
+
+            </div>
+
+            <div class="card-width mx-auto h-48 border-2 mb-4 bg-gray-100">
+                <div class="mt-6  flex flex-row ">
+                    <div>
+                        <img class="h-24 w-24 ml-4 mr-6 rounded-full " src="img/sms-icon.jpg" alt="">
+
+                    </div>
+                    <div class="card-text mx-auto ">
+                        <h3 class="font-bold text-xl text-gray-600">Receive SMS</h3>
+                        <p class="text-gray-600 font-thin">Receive mobile originating SMS messages for marketing and
+                            other communication purposes.Try <a href="#"><u>Incoming Long Numbers</u> </a> or
+                            <ahref="#"><u>SMS Shortcodes</u> </a>.
+                        </p>
+
+                    </div>
+                </div>
+                <hr class="mt-4">
+
+            </div>
+        </div>
+
+        <div class="container  lg:header mx-auto ">
+            <div class="flex flex-col items-center py-16 mx-auto text-center sm:w-auto">
+                <p class="font-semibold text-xl text-gray-600">Each of our solutions addresses your needs. <a
+                        href="#">Compare Solutions</a></p>
+                <a class="red hover:bg-red-700 rounded py-2 px-4 my-4" href="#">Try BulkSMS for Free</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-red-700">
+        <div class="container why-bulksms  mx-auto">
+            <div class="">
+                <div class="items-center mx-auto text-center sm:w-auto">
+                    <p class="font-semibold text-4xl text-white pt-10 pb-24">Why BulkSMS</p>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-col lg:flex-row container mx-auto sm:justify-around">
+                <div class="flex flex-col sm:flex-row container mx-auto items-center sm:justify-around">
+                    <div class="small-card text-white flex flex-col items-center">
+                        <div class="">
+                            <img src="img/support.png" alt="this is icon for support.">
+                        </div>
+                        <div class="text-center mb-24">
+                            <h3 class="font-semibold text-xl my-4">Support</h3>
+                            <p class="font-thin">Our Support Team is dedicated to helping you get your SMS messages
+                                across.</p>
+                        </div>
+                    </div>
+
+                    <div class="small-card text-white flex flex-col items-center">
+                        <div class="">
+                            <img src="img/delivery.png" alt="this is icon for support.">
+                        </div>
+                        <div class="text-center mb-24">
+                            <h3 class="font-semibold text-xl my-4">Reliable Delivery</h3>
+                            <p class="font-thin">We send your messages through the most reliable routes on offer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-around items-center container mx-auto ">
+                    <div class="small-card text-white flex flex-col items-center">
+                        <div class="">
+                            <img src="img/transparency.png" alt="this is icon for support.">
+                        </div>
+                        <div class="text-center mb-24">
+                            <h3 class="font-semibold text-xl my-4">Regulations</h3>
+                            <p class="font-thin">Easy access to information on industry best practices and regional
+                                regulations.</p>
+                        </div>
+                    </div>
+
+                    <div class="small-card text-white flex flex-col items-center">
+                        <div class="">
+                            <img src="img/easy.png" alt="this is icon for support.">
+                        </div>
+                        <div class="text-center mb-24">
+                            <h3 class="font-semibold text-xl my-4">Easy access</h3>
+                            <p class="font-thin">Access all our SMS Solutions with one account.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-12">
+        <div class="container connect-network mx-auto border-2 mt-16 bg-gray-100 justify-center">
+            <div class="text-4xl text-gray-800 font-semibold text-center my-16">
+                <h2>We Connect to Over 800 Networks, Globally.</h2>
+            </div>
+
+            <div
+                class="flag-card sm:w-3/5 container mx-auto  flex flex-col grid sm:grid-cols-2 md:grid-cols-4 justify-center mb-10">
+                <div class="flex flex-row  items-center mb-10">
+                    <img class="" src="img/south-africa.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">South Africa</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/germany.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700"> Germany</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/UK.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">United Kingdom</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/usa.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">USA</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/singapor.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Singapore</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/finland.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Finland</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/canada.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Canada</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/Rep-ireland.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Rep. Ireland</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/Denmark.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Denmark</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/Rusia.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Russia</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <img class="" src="img/norway.PNG" alt=""></img>
+                    <h2 class="ml-2 text-xl font-thin text-gray-700">Norway</h2>
+                </div>
+                <div class="flex flex-row mb-10">
+                    <h2 class="text-xl font-thin text-gray-700">+170 Other Countries</h2>
+                </div>
+            </div>
+
+            <div class="h-32 bg-gray-300">
+                <div class="flex flex-row  mx-auto container justify-center">
+                    <a class="red hover:bg-red-700 rounded py-2 px-4 my-4 mr-8 flex mt-12" href='#'>View all our
+                        Networks</a>
+                    <a class="red hover:bg-red-700 rounded py-2 px-4 my-4 mt-12" href='#'>Test Your Networks</a>
+                </div>
+
             </div>
         </div>
     </section>
 
     <section class="bg-white">
-        <div class="header mx-auto">
-            <div class="flex flex-col items-center py-16 w-2/5 sm:w-3/5 md:w-4/5 lg:w-auto">
-                <h2 class="text-4xl text-blue-600 font- font-semibold ">One Account, Many Ways to Send</h2>
-                <p class="text-2xl text-gray-600 font-thin">When you sign up with BulkSMS, you'll get access to our entire solution suite:</p>
+        <div class="rating  container mx-auto">
+            <div class="text-4xl text-gray-800 font-semibold text-center mb-12">
+                <h2>What our Clients Love</h2>
+            </div>
+            <div class="container  flex flex-col lg:flex-row justify-between">
+                <div class="w-48 text-center mb-10 mx-auto">
+                    <h3 class="text-xl font-semibold text-center">Great</h3>
+                    <p class="text-white text-xl my-2">
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i>
+                    </p>
+                    <span>Based on <u> 1,339 reviews</u></span>
+                    <h2 class="text-xl font-semibold"><i class="fas fa-star text-green-500"> </i>Trustpilot</h2>
+                </div>
+                <i
+                    class="fas fa-arrow-circle-left text-gray-400 text-3xl items-center inline mt-10 mx-8 mx-auto mb-4"></i>
+                <div class=" w-64 mb-4 mx-auto">
+
+                    <p class="text-white text-xs inline">
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i>
+                        <h4 class="text-left inline pl-4 text-xs text-gray-500 ml-8"> 29 hours ago</h4>
+                    </p>
+                    <h2 class="text-sm font-semibold mt-1">Competence and quick response</h2>
+                    <h2 class="text-xs text-gray-900">Competence and quick response</h2>
+                    <h2 class="text-xs text-gray-600 mt-10 ">Computer Design</h2>
+
+                </div>
+
+                <div class=" w-64 mb-4 mx-auto">
+                    <p class="text-white text-xs inline">
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i>
+                        <h4 class="text-left inline pl-4 text-xs text-gray-500 ml-8">4 days ago</h4>
+                    </p>
+                    <h2 class="text-sm font-semibold mt-1">Response was good but could br...</h2>
+                    <h2 class="text-xs text-gray-900">Response was good but could be faster.</h2>
+                    <h2 class="text-xs text-gray-600 mt-10 ">infomaniacs</h2>
+
+                </div>
+
+                <div class=" w-64 mx-auto">
+                    <p class="text-white text-xs inline">
+                        <i class="fas fa-star bg-green-500 p-1"> </i>
+                        <i class="fas fa-star bg-green-500 p-1"> </i>
+                        <i class="fas fa-star bg-green-500 p-1"> </i>
+                        <i class="fas fa-star bg-green-500 p-1"> </i>
+                        <i class="fas fa-star bg-green-500 p-1"> </i>
+                        <h4 class="text-left inline pl-4 text-xs text-gray-500 ml-8">6 Februrary</h4>
+                    </p>
+                    <h2 class="text-sm font-semibold mt-1">Its good but please work on Andr...</h2>
+                    <h2 class="text-xs text-gray-900">Its good but please work on Android App.</h2>
+                    <h2 class="text-xs text-gray-600 mt-10">Customer</h2>
+                </div>
+                <i class="fas fa-arrow-circle-right text-gray-400 text-3xl items-center inline mt-10 mx-auto"></i>
+            </div>
+
+            <div class="flex flex-row justify-around mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+                <img class="rounded-md mb-4 mx-auto" src="img/flysafari.PNG" alt="this is image.">
+                <img class="rounded-md mb-4 mx-auto" src="img/castle.PNG" alt="this is image.">
+                <img class="rounded-md mb-4 mx-auto" src="img/santa.PNG" alt="this is image.">
+                <img class="rounded-md mb-4 mx-auto" src="img/E-bay.PNG" alt="this is image.">
+                <img class="rounded-md mb-4 mx-auto" src="img/sme.PNG" alt="this is image.">
+                <img class="rounded-md mb-4 mx-auto" src="img/Q8.PNG" alt="this is image.">
+            </div>
+            <div class="flex flex-row  mx-auto container justify-center pb-12 mt-6">
+                <a class="red hover:bg-red-700 rounded py-2 px-6 h-10 mr-8 flex" href='#'>See Our Case Studies<i
+                        class="fas fa-arrow-right mt-2 ml-2 text-xs"></i></a>
             </div>
         </div>
-        <div>
-            
+    </section>
+    <section class="bg-image">
+        <div class="container mx-auto ">
+            <div class="mx-auto pt-16  flex flex-col ">
+                <h2 class="text-4xl mb-6 text-white font-semibold mx-auto">Join BulkSMS Today</h2>
+                <h2 class="text-xl text-white mx-auto">Keep on Connecting</h2>
+            </div>
+            <div class="flex flex-row  mx-auto container justify-center pb-16 mt-8">
+                <a class="red hover:bg-red-700 rounded py-2 px-6 h-10 mr-3 flex" href='#'>Register your account
+                    today!</a>
+                <a class="red hover:bg-red-700 rounded py-2 px-6 h-10 flex" href='#'>View our Pricing<i
+                        class="fas fa-arrow-right mt-2 ml-2 text-xs"></i></a>
+            </div>
         </div>
     </section>
+
+    <!-- footer part -->
+
+    <footer class="pt-16 bg-white ">
+        <div class="container footer mx-auto  flex justify-start flex-col lg:flex-row">
+            
+            <div class="flex flex-row   lg:flex-row container mx-auto justify-around md:justify-around lg:justify-between mb-8">
+                <div class="mr-12  ">
+                    <p><span class="text-xs text-red-600">BULKSMS.COM</span></p>
+                        <p class="text-xs text-blue-600 mt-2 mb-3">SMS from Web</p>
+                        <p class="text-xs text-blue-600 mb-3">Desktop SMS Software</p>
+                        <p class="text-xs text-blue-600 mb-3">SMS API</p>
+                        <p class="text-xs text-blue-600 mb-3">SMS from iPhone</p>
+                        <p class="text-xs text-blue-600 mb-3">SMS Integrations</p>
+                        <p class="text-xs text-blue-600 mb-3">Compare SMS Solutions</p>
+                        <p class="text-xs text-blue-600 mb-3">Community SMS Messaging</p>
+                </div>
+    
+                <div class="mr-24 md:w-48 ">
+                    <p><span class="text-xs text-red-600 uppercase">Company Info</span></p>
+                        <p class="text-xs text-blue-600 mt-2 mb-3">SMS Pricing</p>
+                        <p class="text-xs text-blue-600 mb-3">SMS Resources</p>
+                        <p class="text-xs text-blue-600 mb-3">Company</p>
+                        <p class="text-xs text-blue-600 mb-3">Terms of Service</p>
+                        <p class="text-xs text-blue-600 mb-3">PAIA Manual</p>
+                        <p class="text-xs text-blue-600 mb-3">Support</p>
+                        <p class="text-xs text-blue-600 mb-3">Contact</p>
+                </div>
+            </div>
+            
+            <div class="flex flex-row   lg:flex-row container mx-auto justify-around md:justify-around lg:justify-between ">
+                <div class="mr-12">
+                    <div>
+                        <a><span class="text-xs text-red-600 mb-4">GET IN TOUCH</span></a><br>
+                        <a><i class="fas fa-phone-alt text-gray-600 mr-3 mt-3"></i>+27 (0)21 528 3420</a><br>
+                        <a><i class="fas fa-paper-plane text-gray-600 mr-3 text-"></i>Email Support</a><br><br>
+    
+                    </div>
+                    <div>
+                        <a><span class="text-xs text-red-600 ">FOLLOW US</span></a><br>
+                        <div>
+                            <i class="fab fa-linkedin-in text-gray-600 mt-3"></i>
+                            <i class="fab fa-facebook-square text-gray-600 mx-3"></i>
+                            <i class="fab fa-twitter text-gray-600"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="w-48 md:w-2/5 lg:w-2/3">
+                    <h2 class="text-xs text-red-600 text-center mb-6">OUR INDUSTRY ASSOCIATIONS & SECURITY</h2>
+                    <div>
+                        <div class="flex flex-col sm:flex-row  justify-between ">
+                            <img class="mb-6 sm:mb-0" src="img/Waspa.PNG" alt="this is image.">
+                            <img src="img/MMA.PNG" alt="this is image.">
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between my-6">
+                            <img class="-ml-1 mb-6 sm:mb-0" src="img/MEf.PNG" alt="this is image.">
+                            <img class="mr-6" src="img/trust-in.PNG" alt="this is image.">
+                        </div>
+                        <div>
+                            <img src="img/site-lock.PNG" alt="this is image.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="container h-12 text-xs footer items-center bg-gray-200 lg:flex mx-auto mt-6 hidden">
+            <h3 class="ml-10 text-red-600 ">SMS COVERAGE DIRECTORY</h3>
+            <ul class="flex ml-16">
+                <li class="mr-6"><a class="text-red-600">A</a></li>
+                <li class="mr-6"><a>B</a></li>
+                <li class="mr-6"><a>C</a></li>
+                <li class="mr-6"><a>D</a></li>
+                <li class="mr-6"><a>E</a></li>
+                <li class="mr-6"><a>F</a></li>
+                <li class="mr-6"><a>G</a></li>
+                <li class="mr-6"><a>H</a></li>
+                <li class="mr-6"><a>I</a></li>
+                <li class="mr-6"><a>J</a></li>
+                <li class="mr-6"><a>K</a></li>
+                <li class="mr-6"><a>L</a></li>
+                <li class="mr-6"><a>M</a></li>
+                <li class="mr-6"><a>N</a></li>
+                <li class="mr-6"><a>O</a></li>
+                <li class="mr-6"><a>P</a></li>
+                <li class="mr-6"><a>Q</a></li>
+                <li class="mr-6"><a>R</a></li>
+                <li class="mr-6"><a>S</a></li>
+                <li class="mr-6"><a>T</a></li>
+                <li class="mr-6"><a>U</a></li>
+                <li class="mr-6"><a>V</a></li>
+                <li class="mr-6"><a>W</a></li>
+                <li class="mr-6"><a>X</a></li>
+                <li class="mr-6"><a>Y</a></li>
+                <li class="mr-6"><a>Z</a></li>
+                <!-- flex ml-5 sm:ml-0 sm:mx-auto -->
+        </div>
+        <div class="pt-12">
+            <div class="bg-gray-200 h-16" >
+                <div class="flex flex-col lg:flex-row footer container mx-auto justify-between pr-8">
+                    <div class="flex justify-center -mt-4 lg:mt-0">
+                        <h3 class="text-xl font-semibold text-center ml-10 mt-5 ">Great</h3>
+                        <p class="text-white text-xs my-2 flex mx-2 mt-6 pt-1">
+                            <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                            <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                            <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                            <i class="fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                            <i class="far fa-star bg-gray-500 p-1"> </i>
+                        </p>
+                        <div class="flex  items-center mt-4  ">
+                            <span class="text-sm text-gray-800 mr-2">1,339 reviews on</span>
+                            <h2 class="text-sm font-semibold"><i class="fas fa-star text-green-500"> </i>Trustpilot
+                            </h2>
+                        </div>
+    
+                    </div>
+
+                    <div class="lg:mt-6 text-gray-600 text-xs pl-10 lg:mr-12 pr-1 mx-auto flex items-center">
+                        <h2>&copy; 2000 - 2020 Celerity Systems (Pty) Ltd. All Rights Reserved</h2>
+                    </div>
+                </div>
+               
+               
+            </div>
+        </div>
+    </footer>
 
 </body>
 
